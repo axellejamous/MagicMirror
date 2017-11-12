@@ -12,28 +12,22 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				//jokes
-				"!false \n It's funny 'cause it's true.",
-				"Q: Why was the developer unhappy at his job? \n A: He wanted arrays.",
-				"Q: Why don't bachelors like Git? \n A: Because they are afraid to commit.",
-				"Q: Why did the functions stop calling each other? \n A: Because they had constant arguments.",
-				"Hardware (noun) \n The part of a computer you can kick"
+				"Hey there sexy!"
 			],
 			morning: [
-				"Good morning!",
-				"Have a nice day!",
-				"How did you sleep?"
+				"Good morning, handsome!",
+				"Enjoy your day!",
+				"How was your sleep?"
 			],
 			afternoon: [
-				"Halfway through your day!",
-				"Looking good today!",
-				"Hope you're having a lovely afternoon"
+				"Hello, beauty!",
+				"You look sexy!",
+				"Looking good today!"
 			],
 			evening: [
-				"Bedtime :)",
-				"Still looking good after that long day",
-				"Good !morning",
-				"Can we go to sleep mode already? It's getting late.."
+				"Wow, you look hot!",
+				"You look nice!",
+				"Hi, sexy!"
 			]
 		},
 		updateInterval: 30000,
