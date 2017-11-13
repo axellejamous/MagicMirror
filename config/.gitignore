@@ -1,1 +1,2 @@
-#added empty gitignore
+*
+!config.js.sample
