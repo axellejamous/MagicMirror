@@ -1,6 +1,3 @@
 [submodule "modules/voicecontrol"]
 	path = modules/voicecontrol
 	url = https://github.com/alexyak/voicecontrol.git
-[submodule "modules/MMM-AlarmClock"]
-	path = modules/MMM-AlarmClock
-	url = https://github.com/fewieden/MMM-AlarmClock.git
