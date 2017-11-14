@@ -4,3 +4,6 @@
 [submodule "modules/MMM-AlarmClock"]
 	path = modules/MMM-AlarmClock
 	url = https://github.com/axellejamous/MMM-AlarmClock.git
+[submodule "modules/MMM-PyArduinoControl"]
+	path = modules/MMM-PyArduinoControl
+	url = https://github.com/axellejamous/MMM-PyArduinoControl.git
