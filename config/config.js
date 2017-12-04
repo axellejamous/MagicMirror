@@ -95,7 +95,7 @@ var config = {
 			position: "top_right",
 			config: {
 				alarms: [
-					{time: "17:25", days: [2,4,5,6,7], sound: "alarm.mp3", title: "School", message: "Get ready for school!!"},
+					{time: "15:28", days: [1,2,3,4,5,6,7], sound: "alarm.mp3", title: "School", message: "Get ready for school!!"},
 				],		
 			}
 		},
@@ -112,6 +112,9 @@ var config = {
 					},
 					]					
 			}
+		},
+		{
+			module: "MMM-PyArduinoControl",
 		}
 	]
 
