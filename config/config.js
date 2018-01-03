@@ -54,6 +54,19 @@ var config = {
 			}
 		},
 		{
+			module: "calendar",
+			header: "Personal Calendar",
+			position: "top_left",
+			config: {
+				calendars: [
+					{
+						symbol: "calendar-check-o ",
+						url: "https://calendar.google.com/calendar/ical/laundry_day%40hotmail.com/public/basic.ics"
+					}
+				]
+			}
+		},
+		{
 			module: "compliments",
 			position: "lower_third"
 		},
@@ -111,6 +124,12 @@ var config = {
 						file: "stopAlarm.pmdl", //trained model file named stopAlarm
 						message: "STOP_ALARM"
 					},
+					{
+						keyword: "setCoffee",
+						description: "Say 'Set Coffee' to start the coffee machine",
+						file: "setCoffee.pmdl",
+						message: "SET_COFFEE"
+					}
 					]					
 			}
 		},
