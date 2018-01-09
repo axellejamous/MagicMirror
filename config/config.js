@@ -131,15 +131,15 @@ var config = {
 						message: "SET_COFFEE"
 					},
 					{
-						keyword: "lightsOn",
-						description: "Say 'Lights On' to turn the night lamp on",
-						file: "lightsOn.pmdl",
+						keyword: "light",
+						description: "Say 'Lights' to turn the night lamp on",
+						file: "Light.pmdl",
 						message: "LIGHTS_ON"
 					},
 					{
-						keyword: "lightsOff",
-						description: "Say 'Lights Off' to turn the night lamp off",
-						file: "lightsOff.pmdl",
+						keyword: "dark",
+						description: "Say 'Dark' to turn the night lamp off",
+						file: "Dark.pmdl",
 						message: "LIGHTS_OFF"
 					}
 					]					
