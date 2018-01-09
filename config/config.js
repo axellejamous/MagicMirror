@@ -129,6 +129,18 @@ var config = {
 						description: "Say 'Set Coffee' to start the coffee machine",
 						file: "setCoffee.pmdl",
 						message: "SET_COFFEE"
+					},
+					{
+						keyword: "lightsOn",
+						description: "Say 'Lights On' to turn the night lamp on",
+						file: "lightsOn.pmdl",
+						message: "LIGHTS_ON"
+					},
+					{
+						keyword: "lightsOff",
+						description: "Say 'Lights Off' to turn the night lamp off",
+						file: "lightsOff.pmdl",
+						message: "LIGHTS_OFF"
 					}
 					]					
 			}
