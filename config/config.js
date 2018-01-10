@@ -151,6 +151,18 @@ var config = {
 			header: 'MQTT',
 			config: {
 			}
+		},
+		{
+			module: 'MMM-mqtt',
+			position: "top_right",
+			header: 'MQTT',
+			config: {
+				mode: 'receive',
+				loadingText: 'MQTT subs will show here',
+				showTitle: true,
+				title: 'MQTT Sub Data',
+				postText: ''
+			}
 		}
 	]
 
