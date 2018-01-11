@@ -148,12 +148,17 @@ var config = {
 		{
 			module: 'MMM-mqtt',
 			position: "top_right",
-			header: 'MQTT',
+			header: 'MQTT pub sender',
 			config: {
-				mode: 'send',
-				loadingText: 'MQTT data will show here',
-				showTitle: false,
-				title: 'MQTT Data'
+				mode: 'send'
+			}
+		},
+		{
+			module: 'MMM-mqtt',
+			position: "top_right",
+			header: 'MQTT sub receiver',
+			config: {
+				mode: 'receive'
 			}
 		}
 	]
