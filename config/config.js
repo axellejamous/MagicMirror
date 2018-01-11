@@ -150,6 +150,21 @@ var config = {
 			position: "top_right",
 			header: 'MQTT',
 			config: {
+				mode: 'send',
+				loadingText: 'MQTT pub will show here',
+				showTitle: false,
+				title: 'MQTT Data'
+			}
+		},
+		{
+			module: 'MMM-mqtt',
+			position: "top_right",
+			header: 'MQTT',
+			config: {
+				mode: 'receive',
+				loadingText: 'MQTT subs will show here',
+				showTitle: true,
+				title: 'MQTT Sub Data'
 			}
 		}
 	]
