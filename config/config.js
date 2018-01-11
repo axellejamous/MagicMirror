@@ -150,28 +150,6 @@ var config = {
 			position: "top_right",
 			header: 'MQTT',
 			config: {
-				mqttServer: 'mqtt://172.16.148.62',
-				mode: 'send',
-				loadingText: 'MQTT pub will show here',
-				topic: 'mm/reply',
-				showTitle: false,
-				title: 'MQTT Data',
-				interval: 300000,
-				postText: ''
-			}
-		},
-		{
-			module: 'MMM-mqtt',
-			position: "top_right",
-			header: 'MQTT',
-			config: {
-				mqttServer: 'mqtt://172.16.148.62',				
-				mode: 'receive',
-				loadingText: 'MQTT subs will show here',
-				showTitle: true,
-				title: 'MQTT Sub Data',
-				interval: 300000,				
-				postText: ''
 			}
 		}
 	]
