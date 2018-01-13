@@ -104,6 +104,20 @@ var config = {
 			}
 		},
 		{
+			module: "newsfeed",
+			position: "bottom_bar",
+			config: {
+				feeds: [
+					{
+						title: "TechCrunch",
+						url: "http://feeds.feedburner.com/TechCrunch?format=xml"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true
+			}
+		},
+		{
 			module: "MMM-AlarmClock",
 			position: "top_right",
 			config: {
