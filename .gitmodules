@@ -7,3 +7,6 @@
 [submodule "modules/MMM-mqtt"]
 	path = modules/MMM-mqtt
 	url = https://github.com/axellejamous/MMM-mqtt.git
+[submodule "modules/MMM-mqttReceiver"]
+	path = modules/MMM-mqttReceiver
+	url = https://github.com/axellejamous/MMM-mqttReceiver.git
