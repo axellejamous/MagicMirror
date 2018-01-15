@@ -122,8 +122,8 @@ var config = {
 			position: "top_right",
 			config: {
 				alarms: [
-					{time: "10:41", days: [1,2,3,4,5,6,7], sound: "alarm.mp3", title: "School", message: "Get ready for school!!"},
-					{time: "15:17", days: [1,2,3,4,5,6,7], sound: "alarm.mp3", title: "Trying", message: " f "},
+					{time: "07:00", days: [1,2,3,4,5,6,7], sound: "alarm.mp3", title: "School", message: "Get ready for school!!"},
+					{time: "19:20", days: [1,2,3,4,5,6,7], sound: "alarm.mp3", title: "Alarm", message: "Wake up!"},
 				],		
 			}
 		},
